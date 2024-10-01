@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+header {
+    background-color: silver;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header .logo img {
+	width: 160px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+nav {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+	text-decoration : 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+.car, .offer {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+
+.car img, .offer img {
+    width: 300px;
+    height: auto;
+}
+
+.price {
+	font-size: 16px;
+	font-weight: bold;
+	color: gold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.social {
+	width: 40px;
+	height: 40px;
+	border-radius: 24px; 
+	border: 4px solid purple;
+	margin: 6px;
+	display: inline-block;
+	text-align: center;
+} 
+
+
